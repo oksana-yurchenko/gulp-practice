@@ -84,7 +84,7 @@ body {
       width: 40%;
       background: #d03958;
       padding: 1em;
-      padding-top: 1.5em;
+      padding-top: 1em;
       text-align: center;
       border-radius: 5px;
       box-sizing: border-box; }
@@ -93,7 +93,7 @@ body {
         font-size: 1.1em;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
-        margin-bottom: 1.5em; }
+        margin-bottom: 1em; }
       .header-middle .request-form input:not([type="checkbox"]) {
         width: 100%;
         border-radius: inherit;
@@ -108,7 +108,7 @@ body {
         width: 100%;
         color: #fff;
         padding-top: 0.5em;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
         text-align: left;
         display: flex;
         align-items: center; }
@@ -131,9 +131,11 @@ body {
 .section-title {
   font-size: 2.5em;
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: -1px;
   line-height: 1.6;
   text-transform: uppercase;
+  margin-top: 0.5em;
   margin-bottom: 1em;
   text-align: center; }
 
@@ -144,7 +146,8 @@ body {
     text-align: left; }
   .section-services .services-list {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-top: 1em; }
     .section-services .services-list-item {
       width: 20%;
       height: 250px;
@@ -237,15 +240,15 @@ body {
         transform: rotate(-45deg); }
 
 .section-social {
-  padding-top: 7em;
-  padding-bottom: 6em; }
+  padding: 6em 0; }
   .section-social .inner-container {
     display: flex;
     justify-content: space-between; }
     .section-social .inner-container .section-testimonials {
-      width: 49%; }
+      width: 45%; }
       .section-social .inner-container .section-testimonials .testimonials-list-item {
         padding: 1em;
+        padding-right: 3em;
         position: relative; }
         .section-social .inner-container .section-testimonials .testimonials-list-item:first-child {
           margin-bottom: 2em; }
